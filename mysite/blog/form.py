@@ -5,3 +5,5 @@ class EmailPostFrom(forms.Form):
     email = forms.CharField()
     to  = forms.EmailField()
     comments = forms.CharField(required=False, widget=forms.Textarea)
+
+
